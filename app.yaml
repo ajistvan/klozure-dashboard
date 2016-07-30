@@ -1,0 +1,23 @@
+application: klozure-dashboard
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+  
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /
+  script: main.php
+
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /static
+  static_dir: static
+  
+- url: /(.+\.php)$
+  script: \1

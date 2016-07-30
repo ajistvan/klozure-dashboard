@@ -1,0 +1,222 @@
+/* Fonts */
+p, li {
+font-family: 'Cabin', sans-serif;
+  padding-bottom: 1em;
+  line-height: 1.7em;
+  font-size: 16px;
+}
+
+
+h1 { font-family: 'Cabin', sans-serif;
+ font-weight: 500;
+font-size :30px !important;
+text-transform: uppercase !important;
+color: #c08065 !important;}
+
+h2 { font-family: 'Cabin', sans-serif !important;
+ font-weight: 400;
+font-size: 20px !important;
+color: #666666 !important;}
+
+h3 { font-family: 'Satisfy', cursive !important;
+font-size :30px !important;
+color: #c08065 !important; } 
+
+/* Titles*/
+.title1 {   border: solid  #C08065 !important;
+  max-width: 50% !important;
+  padding-left: 60px !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #C08065 !important; } 
+
+.title2 {   border: solid  #C08065 !important;
+  max-width: 70% !important;
+  padding-left: 60px !important;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #C08065 !important; } 
+
+.title3 {   border: solid #C08065 !important;
+
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #C08065 !important;
+  text-align: center; }
+
+
+/* Borders*/
+.content1 { 
+padding: 0px;
+border-style: solid;
+border-width:24px 27px 24px 0px;
+-moz-border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 repeat;
+-webkit-border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 repeat;
+-o-border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 repeat;
+border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 fill repeat; }
+
+.content2 {
+margin-top: -70px !important;
+padding: 0px !important;
+  position: relative;
+border-style: solid;
+border-width:24px 27px 24px 0px;
+-moz-border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 repeat;
+-webkit-border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 repeat;
+-o-border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 repeat;
+border-image: url(http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/border.png) 0 27 24 0 fill repeat; }
+
+/* What is Bawdy Love Section*/
+#whatisbawdy { 
+   background-image: url("http://laurenmariefleming.com/retreats/wp-content/uploads/2015/05/whatisbawdy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 800px;
+  padding: 90px; }
+
+.textbox1 { padding:80px !important; }
+
+.details {background-color: #ffffff !important;
+  padding: 10px !important;
+height: 512px; }
+
+.details2 {background-color: #ffffff !important;
+  padding: 10px !important; 
+}
+
+/* Testimonials */ 
+
+.et_pb_testimonial_portrait {
+  float: left;
+  position: relative;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 150px !important;
+  height: 150px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 40px !important;
+}
+
+/* Gravity Forms */ 
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
+ color: white !important;
+  background: #687E36 !important;
+  background: -moz-linear-gradient(top, #88bdff 0%, #60a7ff 100%);
+  background: none;
+  background: none;
+  background: none;
+  background: -ms-linear-gradient(top, #88bdff 0%,#60a7ff 100%);
+  background: none;
+  border: none;
+  padding: 20px 40px;
+  font-weight: bold !important;
+  font-size: 20px;
+  margin: 0 5px 8px 0;
+display: inline-block;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+  -moz-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4), 1px 1px 1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4), 1px 1px 1px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4), 1px 1px 1px rgba(0,0,0,0.1);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 2px;
+  line-height: 26px;
+  font-size: 20px;
+}
+
+.gform_wrapper span.ginput_product_price {
+  color: #BF8067;
+  font-size: 30px;
+}
+
+.gform_wrapper span.ginput_product_price_label {
+  margin-right: .125em;
+  font-size: 30px;
+}
+
+/* Buttons */
+a.small-button, a.icon-button {
+  padding: 20px 40px;
+  font-weight: bold !important;
+  font-size: 20px;
+  margin: 0 5px 8px 0;
+}
+a.small-button, a.big-button, a.icon-button {
+  display: inline-block;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+  -moz-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4), 1px 1px 1px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4), 1px 1px 1px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4), 1px 1px 1px rgba(0,0,0,0.1);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 2px;
+  line-height: 26px;
+  font-size: 20px;
+}
+a.smallblue, a.bigblue {
+  color: white !important;
+  background: #687E36 !important;
+  background: -moz-linear-gradient(top, #88bdff 0%, #60a7ff 100%);
+  background: none;
+  background: none;
+  background: none;
+  background: -ms-linear-gradient(top, #88bdff 0%,#60a7ff 100%);
+  background: none;
+  border: none;
+}
+
+a.smallblue:hover, a.bigblue:hover {
+  color: #94A272 !important;
+}
+/* Responsive*/
+
+@media all and (max-width: 980px) and (min-width: 700px) {
+div#whatisbawdy {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 0;
+  background-color: #fff;
+}
+}
+@media all and (max-width: 700px) and (min-width: 450px) {
+.et_pb_slide_content, .et_pb_more_button {  display: block !important;}
+div#whatisbawdy {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 0;
+  background-color: #fff;
+}
+#whatisbawdy { background-image: none;  height: auto;
+  padding: 90px;  background-color: #F6F4EC !important; }
+.title1, .title2 {  max-width:100%; padding-left: 0 !important;   text-align: center !important;}
+.et_pb_column.et_pb_column_4_4.et_pb_column_inner {
+    padding-bottom: 0;}
+.title2 {    margin-bottom: 15px;}
+.textbox1 {padding:0;}
+}
+@media all and (max-width: 450px) {
+.et_pb_slide_content, .et_pb_more_button {  display: block !important;}
+div#whatisbawdy {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 0;
+  background-color: #fff;
+}
+#whatisbawdy { background-image: none;  height: auto;
+  padding: 20px 0 0;  background-color: #F6F4EC !important; }
+.title1 {  max-width: 100% !important;  padding-left: 0 !important;   text-align: center !important;}
+.et_pb_column.et_pb_column_4_4.et_pb_column_inner {
+    padding-bottom: 0;}
+.title2 {    margin-bottom: 15px;}
+.textbox1 {padding:0;}
+.et_pb_text.et_pb_bg_layout_light.et_pb_text_align_left {
+    margin-bottom: 0 !important;}
+.details {height:auto;}
+
+}
